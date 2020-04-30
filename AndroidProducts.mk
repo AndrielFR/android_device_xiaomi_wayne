@@ -23,9 +23,9 @@
 
 # inherit MI 6X lineage device config
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/superior_wayne.mk
+    $(LOCAL_DIR)/colt_wayne.mk
 
 COMMON_LUNCH_CHOICES := \
-    superior_wayne-eng \
-    superior_wayne-userdebug \
-		superior_wayne-user
+    colt_wayne-eng \
+    colt_wayne-userdebug \
+		colt_wayne-user
