@@ -24,12 +24,12 @@
 # Inherit device configuration
 $(call inherit-product, device/xiaomi/wayne/device.mk)
 
-# Inherit some common Colt-OS stuff.
-$(call inherit-product, vendor/colt/config/common.mk)
+# Inherit some common Superior stuff.
+$(call inherit-product, vendor/superior/config/common.mk)
 
 # Mainatiner Prop
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.colt.maintainer="Markdarkness"
+    ro.colt.maintainer="AndrielFR"
 
 # Define first api level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
@@ -41,9 +41,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # Device identifier
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := colt_wayne
+PRODUCT_NAME := superior_wayne
 PRODUCT_DEVICE := wayne
 PRODUCT_MODEL := MI 6X
 TARGET_VENDOR := Xiaomi
-COLT_BUILD_TYPE := Official
-TARGET_BOOT_ANIMATION_RES := 1080x2160
+TARGET_BOOT_ANIMATION_RES := 1080
